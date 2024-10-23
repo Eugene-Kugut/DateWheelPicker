@@ -1,0 +1,15 @@
+{
+  "originHash" : "0fbab80c35e0d9009908650b4432e9d0eb4130ef42d9d8eb5ea94568d5dedcbd",
+  "pins" : [
+    {
+      "identity" : "customwheelpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:Eugene-Kugut/CustomWheelPicker.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5bdd818acbba82ceb2e139193d776ab8d880d24c"
+      }
+    }
+  ],
+  "version" : 3
+}
