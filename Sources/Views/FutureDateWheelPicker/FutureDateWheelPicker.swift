@@ -8,7 +8,7 @@
 import SwiftUI
 import CustomWheelPicker
 
-struct FutureDateWheelPicker: View {
+public struct FutureDateWheelPicker: View {
     @Binding private var date: Date
 
     @State private var year: Int
