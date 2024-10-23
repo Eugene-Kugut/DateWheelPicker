@@ -40,7 +40,7 @@ public struct TimerWheelPicker: View {
     @State private var amOrPm: AmPm
     private let config: CustomWheelPickerConfig
 
-    init(date: Binding<Date>, format: TimerFormat, config: CustomWheelPickerConfig = .defaultConfig) {
+    public init(date: Binding<Date>, format: TimerFormat, config: CustomWheelPickerConfig = .defaultConfig) {
         self.config = config
         self.format = format
         switch format {
