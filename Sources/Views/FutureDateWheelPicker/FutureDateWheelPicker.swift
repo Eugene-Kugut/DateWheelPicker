@@ -21,7 +21,7 @@ public struct FutureDateWheelPicker: View {
     @State private var days: [Int]
     private let config: CustomWheelPickerConfig
 
-    init(date: Binding<Date>, countYears: Int = 120, config: CustomWheelPickerConfig = .defaultConfig) {
+    public init(date: Binding<Date>, countYears: Int = 120, config: CustomWheelPickerConfig = .defaultConfig) {
         self.config = config
         self._date = date
 
