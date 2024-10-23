@@ -24,7 +24,7 @@ public struct BirthdayWheelPicker: View {
     @State private var days: [Int]
     private let config: CustomWheelPickerConfig
 
-    init(birthdayDate: Binding<BirthdayDate>, countYears: Int = 120, config: CustomWheelPickerConfig = .defaultConfig) {
+    public init(birthdayDate: Binding<BirthdayDate>, countYears: Int = 120, config: CustomWheelPickerConfig = .defaultConfig) {
         self.config = config
         self._birthdayDate = birthdayDate
 
